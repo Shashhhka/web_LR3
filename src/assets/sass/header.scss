@@ -1,0 +1,39 @@
+header {
+  color: #FFFAEE;
+  background: url('../../img/left_flashlight.svg') top left/12% no-repeat,
+  url('../../img/right_flashlight.svg') top right/11.5% no-repeat,
+  url('../../img/building.svg') bottom right/20% no-repeat,
+  url('../../img/gates.svg') bottom left/15% no-repeat,
+  url('../../img/background_image.svg') center/cover no-repeat;
+  padding: 5%;
+
+  @media (max-width: 768px) {
+    background: url('../../img/left_flashlight.svg') top left/18% no-repeat,
+    url('../../img/right_flashlight.svg') top right/17.5% no-repeat,
+    url('../../img/building.svg') bottom right/25% no-repeat,
+    url('../../img/gates.svg') bottom left/20% no-repeat,
+    url('../../img/background_image.svg') center/cover no-repeat;
+  }
+
+  @media (max-width: 536px) {
+    background: url('../../img/left_flashlight.svg') top left/28% no-repeat,
+    url('../../img/right_flashlight.svg') top right/27.5% no-repeat,
+    url('../../img/building.svg') bottom right/35% no-repeat,
+    url('../../img/gates.svg') bottom left/30% no-repeat,
+    url('../../img/background_image.svg') center/cover no-repeat;
+  }
+}
+
+.back-rectangle {
+  background: rgb(130, 135, 150, 0.28) center;
+  border-radius: 35px;
+  backdrop-filter: blur(1px);
+  padding: 1%;
+  height: 475px;
+  position: relative;
+
+  @media (max-width: 536px) {
+    padding: 5%;
+  }
+}
+

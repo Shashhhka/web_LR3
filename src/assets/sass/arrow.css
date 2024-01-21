@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.arrow {
+  cursor: pointer;
+  position: relative;
+  width: 90px;
+  height: 50px;
+  display: block;
+}
+
+.arrow span {
+  position: absolute;
+  top: 50%;
+  width: 90px;
+  height: 3px;
+  background-color: #FFFAEE;
+  box-shadow: 0 2px 2px #DA5043;
+  right: 0;
+  border-radius: 35px;
+}
+
+.arrow span::after {
+  content: "";
+  position: absolute;
+  width: 20px; /*длина*/
+  height: 3px; /*ширина*/
+  top: -6px; /*движение по вертикали*/
+  right: -3px; /*движение по горизонтали*/
+  background-color: #FFFAEE;
+  /*box-shadow: 0 2px 2px #DA5043;*/
+  transform: rotate(45deg);
+  border-radius: 35px;
+}
+
+.arrow span::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  top: 6px;
+  right: -3px;
+  background-color: #FFFAEE;
+  box-shadow: 0 2px 2px #DA5043;
+  transform: rotate(-45deg);
+  border-radius: 35px;
+}
+
+/*# sourceMappingURL=arrow.css.map */

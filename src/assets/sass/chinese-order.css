@@ -1,0 +1,48 @@
+.chinese-order {
+  position: relative;
+  text-align: left;
+}
+
+.chinese-order h2 {
+  margin-bottom: 50px;
+}
+
+.chinese-order p {
+  color: #FFFAEE;
+  margin-bottom: 25px;
+  line-height: 30px;
+}
+
+.chinese-order img {
+  width: 350px;
+}
+
+@media (max-width: 426px) {
+  .chinese-order img {
+    width: 300px;
+  }
+}
+.chinese-order button {
+  background-color: #DA5043;
+  border-radius: 55px;
+  padding: 14px 30px;
+  border: none;
+  color: #FFFAEE;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 50px;
+}
+
+@media (max-width: 426px) {
+  .chinese-order button {
+    gap: 50px;
+  }
+}
+@media (max-width: 376px) {
+  .chinese-order button {
+    gap: 70px;
+  }
+}
+
+/*# sourceMappingURL=chinese-order.css.map */

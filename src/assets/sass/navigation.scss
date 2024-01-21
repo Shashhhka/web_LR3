@@ -1,0 +1,34 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+
+  .navigation__list {
+    display: flex;
+    align-items: center;
+    grid-gap: 36px;
+
+    .navigation__list-item {
+      padding: 15px;
+
+      @media (max-width: 472px) {
+        padding: 5px 5px 10px 5px;
+      }
+    }
+
+    @media (max-width: 536px) {
+      grid-gap: 15px;
+      font-size: 14px;
+
+
+    }
+    @media (max-width: 472px) {
+        font-size: 14px;
+      }
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

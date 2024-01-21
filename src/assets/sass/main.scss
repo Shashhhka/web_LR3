@@ -1,0 +1,16 @@
+.main-section {
+  background: url('../img/left_tree.svg') top left/30% no-repeat,
+  url('../img/right_tree.svg') top right/20% no-repeat;
+  overflow-x: hidden;
+
+  @media (max-width: 768px) {
+    background: url('../img/left_tree.svg') top left/40% no-repeat,
+    url('../img/right_tree.svg') top right/30% no-repeat;
+  }
+
+  @media (max-width: 536px) {
+    background: url('../img/left_tree.svg') top left/52% no-repeat,
+    url('../img/right_tree.svg') top right/45% no-repeat;
+  }
+}
+

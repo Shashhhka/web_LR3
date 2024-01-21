@@ -1,0 +1,24 @@
+.tickets .tickets__subtitle {
+  margin: 40px;
+  text-align: center;
+  color: #FFFAEE;
+  line-height: 30px;
+}
+
+.input-group {
+  width: fit-content;
+  margin-bottom: 140px;
+}
+.input-group .input-group-text {
+  background-color: #DA5043;
+  border-radius: 35px;
+  padding: 10px;
+  color: #FFFAEE;
+}
+
+.form-control {
+  background-color: #FFFAEE;
+  border-radius: 35px;
+}
+
+/*# sourceMappingURL=tickets.css.map */
